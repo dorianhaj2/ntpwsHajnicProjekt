@@ -1,0 +1,179 @@
+.hero {
+	background-image: url("images/banner_picture.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 300px;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.new-recipe {
+	background-color: green;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.height100{
+	height: 100%;
+}
+
+.recipeRow{
+	width:100%;
+	margin:auto;
+}
+
+.recipeRow div{
+	height: 450px;
+	margin-bottom: 25px;
+}
+
+.recipeRowAdmin div{
+	height: 520px;
+	margin-bottom: 25px;
+}
+
+.item{
+	background-color: #777;
+	width: 90%;
+	margin: auto;
+	height: 100%;
+	transition: width 0.5s, height 0.5s;
+}
+
+.item:hover{
+	width: 100%;
+	height: 105%;
+}
+
+.item img {
+	width: 100%;
+	height: 65%;
+}
+
+.item h3{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.item p{
+	margin-left: 20px;
+	padding-bottom: 15px;
+}
+
+.item a{
+	text-decoration: none;
+	color: white;
+}
+
+label {
+	display: block;
+}
+input[type=text], input[type=email], input[type=password], input[type=file], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 95%;
+}
+
+input[type=submit] {
+    display: block;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+}
+
+.submit{
+	background-color: #4CAF50;
+}
+
+.delete_edit_form{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.edit_button {
+	background-color: #567dff;
+	float: left;
+	margin: 10px;
+	margin-left:20%;
+}
+
+.edit_button:hover {
+	background-color: #2558ff;
+}
+
+.delete_button {
+	background-color: #fd2f2f;
+	float: right;
+	margin: 10px;
+	margin-right:20%;
+}
+
+.delete_button:hover {
+	background-color: #ff1212;
+}
+
+.mySlides {
+	height: 400px;
+	width: auto !important;
+	margin: auto;
+}
+
+.description {
+	margin: 50px;
+}
+
+footer{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 0rem; 
+}
+
+.foot{
+	background-color: #333;
+	color: white;
+	padding: 2rem;
+	text-align: center;
+}
+
+.footRow{
+width: 65%;
+margin: auto;
+}
+
+.foot-part a{
+display: block;
+	color :#d4d32f
+}
