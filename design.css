@@ -110,10 +110,11 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 	width: 25%;
+	margin-bottom:15px;
 }
 
 .submit{
-	background-color: #4CAF50;
+	background-color: #bd9e16;
 }
 
 .delete_edit_form{
